@@ -17,9 +17,9 @@ function AboutPage() {
     <div className="container p-4 about-page">
       <h4 className="text-uppercase mb-1">About</h4>
       <p className="text-black-60">
-        Covid Maps is a crowd-sourced app that helps you track the latest
+        Map19 is a crowd-sourced app that helps you track the latest
         information on essential services operating around you during the
-        Covid-19 shutdowns. <Link to="/update">Add an update</Link> about a
+        Covid-19 shutdowns. <Link to="//location">Add an update</Link> about a
         store near you and help others!
       </p>
       <p className="text-black-60">
@@ -33,7 +33,7 @@ function AboutPage() {
       <p>
         <NewTabLink href="#">
           <Button variant="info">
-            <i className="fab fa-github" /> Join us
+            <i className="fab fa-whatsapp" /> Join us
           </Button>
         </NewTabLink>
       </p>
@@ -45,7 +45,7 @@ function AboutPage() {
         information is collected.
       </p>
       <p>
-        <NewTabLink href="mailto:hi@creticweb.tech">
+        <NewTabLink href="mailto:gourab@creticweb.tech">
           <Button variant="info">
             <i className="fal fa-envelope" /> Reach out by email
           </Button>
