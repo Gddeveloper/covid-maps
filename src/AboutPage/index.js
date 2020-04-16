@@ -23,8 +23,7 @@ function AboutPage() {
         store near you and help others!
       </p>
       <p className="text-black-60">
-        We are a small team of volunteers in Bengaluru, Siliguri and
-        Kolkata.
+        Made By ☕ Gourab
       </p>
       <h4 className="mt-4 text-uppercase mb-1">Contribute</h4>
       <p className="text-black-60">
