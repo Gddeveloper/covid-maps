@@ -23,8 +23,8 @@ function AboutPage() {
         store near you and help others!
       </p>
       <p className="text-black-60">
-        We are a small team of volunteers in Bengaluru, San Francisco and
-        Vancouver.
+        We are a small team of volunteers in Bengaluru, Siliguri and
+        Kolkata.
       </p>
       <h4 className="mt-4 text-uppercase mb-1">Contribute</h4>
       <p className="text-black-60">
@@ -32,26 +32,13 @@ function AboutPage() {
         outreach.
       </p>
       <p>
-        <NewTabLink href="https://github.com/covid-maps/covid-maps">
+        <NewTabLink href="#">
           <Button variant="info">
-            <i className="fab fa-github" /> Join us on GitHub
+            <i className="fab fa-github" /> Join us
           </Button>
         </NewTabLink>
       </p>
-      <p>
-        <NewTabLink href="https://chat.whatsapp.com/HzZT0gMYoYYEDDjj2LQUD8">
-          <Button variant="info">
-            <i className="fab fa-whatsapp" /> Join our Developer group
-          </Button>
-        </NewTabLink>
-      </p>
-      <p>
-        <NewTabLink href="https://chat.whatsapp.com/BXh2FuYjW55Ee26xuzoWcw">
-          <Button variant="info">
-            <i className="fab fa-whatsapp" /> Join our Outreach group
-          </Button>
-        </NewTabLink>
-      </p>
+      
       <h4 className="mt-4 text-uppercase mb-1">Privacy Policy</h4>
       <p className="text-black-60">
         We collect your IP address when you update information on a store. This
@@ -59,19 +46,13 @@ function AboutPage() {
         information is collected.
       </p>
       <p>
-        <NewTabLink href="mailto:helpcovidmaps@gmail.com">
+        <NewTabLink href="mailto:hi@creticweb.tech">
           <Button variant="info">
             <i className="fal fa-envelope" /> Reach out by email
           </Button>
         </NewTabLink>
       </p>
-      <p>
-        <NewTabLink href="https://www.instagram.com/covidmaps.in/">
-          <Button variant="info">
-            <i className="fab fa-instagram" /> Follow us on Instagram
-          </Button>
-        </NewTabLink>
-      </p>
+      
     </div>
   );
 }
