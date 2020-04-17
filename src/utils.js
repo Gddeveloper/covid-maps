@@ -16,7 +16,7 @@ class ScrollToTopOnMount extends React.Component {
 export const ScrollToTop = withRouter(ScrollToTopOnMount);
 
 // The API key is restricted through HTTP referer rules.
-export const GOOGLE_API_KEY = "AIzaSyA-Jwgxlbo7sKHh1JY-DF5LemQnhXmn5jE";
+export const GOOGLE_API_KEY = "AIzaSyAzMo7dq5_xvxMJfElSxk5wEUITjROfbBw";
 
 export const geocodeByLatlng = latlng => {
   const geocoder = new window.google.maps.Geocoder();
